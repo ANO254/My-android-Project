@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F6E3C7"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:orientation="vertical"
+        android:layout_marginEnd="22dp">
+
+        <androidx.constraintlayout.helper.widget.Carousel
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+            android:text="Sign In"
+            android:textAlignment="center"
+            android:textColor="#FDAA7B32"
+            android:textSize="50sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtsignfirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="First Name"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#FDAA7B32"
+            app:boxStrokeColor="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:inputType="text"
+                android:minHeight="45dp"
+                android:singleLine="true"
+                android:textColor="#FDAA7B32" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+           
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtsignlastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Last Name"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#FDAA7B32"
+            app:boxStrokeColor="@color/black">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:inputType="text"
+                android:minHeight="45dp"
+                android:singleLine="true"
+                android:textColor="#FDAA7B32"/>
+        
+        </com.google.android.material.textfield.TextInputLayout>
+        
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtsignemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Email"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#FDAA7B32"
+            app:boxStrokeColor="@color/black">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:inputType="textEmailAddress"
+                android:minHeight="45dp"
+                android:singleLine="true"
+                android:textColor="#FDAA7B32"/>
+            
+        </com.google.android.material.textfield.TextInputLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="+254"
+                android:textColor="#FDAA7B32"
+                android:textSize="20sp"/>
+            
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edtsignmobile"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Mobile number"
+                android:textColorHint="#FDAA7B32"
+                app:boxStrokeColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            
+        </LinearLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Password"
+            app:passwordToggleEnabled="true"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#FDAA7B32"
+            app:boxStrokeColor="@color/black">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:inputType="textPassword"
+                android:minHeight="45dp"
+                android:singleLine="true"
+                android:textColor="#FDAA7B32"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtconfpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Confirm Password"
+            app:passwordToggleEnabled="true"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#FDAA7B32"
+            app:boxStrokeColor="@color/black">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:inputType="textPassword"
+                android:minHeight="45dp"
+                android:singleLine="true"
+                android:textColor="#FDAA7B32"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnsignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FDAA7B32"
+                android:fontFamily="serif-monospace"
+                android:paddingStart="20dp"
+                android:textSize="20sp"
+                android:paddingBottom="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="20dp"
+                android:text="Sign in"
+                app:cornerRadius="10dp"
+                />
+        </FrameLayout>
+
+            
+        </LinearLayout>
+
+</ScrollView>

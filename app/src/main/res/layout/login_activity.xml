@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAE0BB"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login page"
+        android:textColor="#975C03"
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"
+        android:fontFamily="serif-monospace"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/edtgmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="50sp"
+        android:fontFamily="serif-monospace"
+        android:textSize="25sp"
+        android:layout_marginRight="30sp"
+        android:ems="10"
+        android:hint="Enter Email Address"
+        android:minHeight="48dp"
+        android:textColorHint="#FDAA7B32" />
+
+
+    <EditText
+        android:id="@+id/edtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="60dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint=" Password"
+        android:minHeight="48dp"
+        android:textColorHint="#FDAA7B32"
+        android:textSize="30sp"
+        tools:ignore="UnknownID" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#975C03"
+        android:fontFamily="serif"
+        android:text="LOGIN"
+        android:textColor="#FDDBA7"
+        android:textSize="30sp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</LinearLayout>
