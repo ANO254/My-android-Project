@@ -22,11 +22,12 @@
             android:background="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            android:layout_gravity="center"
             app:layout_constraintHorizontal_bias="0.388"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/LuxuryBrand" />
+            app:srcCompat="@drawable/luxurybrand" />
 
         <TextView
             android:id="@+id/textView"
@@ -35,6 +36,7 @@
             android:layout_marginEnd="10sp"
             android:background="@color/black"
             android:fontFamily="serif"
+            android:layout_gravity="center"
             android:text="Luxury Brand Hotel"
             android:textAlignment="center"
             android:textColor="#FD4C3717"
@@ -49,12 +51,12 @@
             tools:ignore="HardcodedText" />
 
         <TextView
-            android:id="@+id/txtsingle"
+            android:id="@+id/txtstandard"
             android:layout_width="319dp"
             android:layout_height="74dp"
             android:layout_margin="30dp"
             android:fontFamily="serif"
-            android:text="1) single room "
+            android:text="1) Standard Room "
             android:textColor="#FD4C3717"
             android:textSize="30sp"
 
@@ -68,7 +70,7 @@
 
 
         <ImageButton
-            android:id="@+id/btnsingleroom"
+            android:id="@+id/btnstandard"
             android:layout_width="392dp"
             android:layout_height="229dp"
             android:contentDescription="TODO"
@@ -81,14 +83,15 @@
             app:layout_constraintVertical_bias="0.099"
             app:srcCompat="@drawable/singleroom"
             tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck" />
+
         <TextView
-            android:id="@+id/txtsinglediscr"
-            android:layout_width="557dp"
-            android:layout_height="154dp"
-            android:layout_below="@id/txtsingle"
+            android:id="@+id/txtstanddiscr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtstandard"
             android:layout_margin="20dp"
             android:fontFamily="casual"
-            android:text="All rooms are equipped with an air purifier, including humidifier function and plasma cluster. We strive to deliver a comfortable environment even while sleeping, when it is easy for the air to feel dry."
+            android:text="Elegantly designed standard room is spacious and bright from the daylight. The bed is cozy and the overall room atmosphere is pleasant. Each standard room features a TV, Air Conditioning, Minibar, Wi-Fi Connection, and Hair Dryer. The complimentary tea/coffee set will be waiting for you upon your arrival to the room."
             android:textColor="#FDAA7B32"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -100,28 +103,15 @@
             app:layout_constraintVertical_bias="0.243"
             tools:ignore="HardcodedText" />
 
-        <Button
-            android:id="@+id/booksingle"
-            android:layout_width="97dp"
-            android:layout_height="62dp"
-            android:backgroundTint="#FD4C3717"
-            android:text="BOOK NOW"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.938"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.175"
-            tools:ignore="HardcodedText,UnusedAttribute" />
 
 
         <TextView
-            android:id="@+id/txtdouble"
+            android:id="@+id/txtdelux"
             android:layout_width="250dp"
             android:layout_height="47dp"
             android:layout_margin="40dp"
             android:fontFamily="serif"
-            android:text="2)Double room"
+            android:text="2)Deluxe Room"
             android:textColor="#FD4C3717"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -134,7 +124,7 @@
 
 
         <ImageButton
-            android:id="@+id/btndoubleroom"
+            android:id="@+id/btndeluxe"
             android:layout_width="314dp"
             android:layout_height="wrap_content"
             android:contentDescription="TODO"
@@ -149,12 +139,12 @@
 
 
         <TextView
-            android:id="@+id/txtdoubledis"
+            android:id="@+id/txtdeluxedis"
             android:layout_width="567dp"
             android:layout_height="172dp"
             android:layout_margin="20dp"
             android:fontFamily="casual"
-            android:text="All our double rooms are around 14m2,and feature a double bed,fridge and microwave,tea and coffee facilities,plasma TV,en-suite bathroom,hair dryer and toiletries.We offer free Breakfast in bed for the double rooms,just call Reception when you are ready to order,and we will bring it up to you!"
+            android:text="Luxury Brand Deluxe rooms are modern decorated, can accommodate up to 2 persons, totally soundproofed and equipped with high tech comforts such as high speed internet access, USB ports , smart TV, room cleaning touch system and private hydromassage bathtub."
             android:textColor="#FDAA7B32"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -168,28 +158,15 @@
             tools:ignore="HardcodedText" />
 
 
-        <Button
-            android:id="@+id/bookdouble"
-            android:layout_width="100dp"
-            android:layout_height="59dp"
-            android:backgroundTint="#FD4C3717"
-            android:text="BOOK NOW"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.947"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.392"
-            tools:ignore="HardcodedText,UnusedAttribute" />
 
 
         <TextView
-            android:id="@+id/txttripple"
+            android:id="@+id/txtexucutive"
             android:layout_width="222dp"
             android:layout_height="41dp"
             android:layout_margin="40dp"
             android:fontFamily="serif"
-            android:text="3)Teipple room"
+            android:text="3)Exucutive Room"
             android:textColor="#FD4C3717"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -201,7 +178,7 @@
             tools:ignore="HardcodedText" />
 
         <ImageButton
-            android:id="@+id/imgtripple"
+            android:id="@+id/imgexucutive"
             android:layout_width="397dp"
             android:layout_height="248dp"
             android:layout_alignParentStart="true"
@@ -218,50 +195,12 @@
 
 
         <TextView
-            android:id="@+id/txttrippledis"
-            android:layout_width="594dp"
-            android:layout_height="167dp"
-
-            android:layout_alignParentEnd="true"
-            android:layout_margin="20dp"
-            android:layout_marginTop="446dp"
-            android:layout_marginBottom="20dp"
-            android:fontFamily="casual"
-            android:text="Spacious, chic and with everything you need, our Deluxe Rooms ooze luxury. Whether you want to lay in bed or lounge in the living area, find yourself feeling at home as you sit back and enjoy the extra in-room touches that make staying in a luxury hotel like ours so special. "
-            android:textColor="#FDAA7B32"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.137"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            tools:ignore="HardcodedText" />
-
-        <Button
-            android:id="@+id/booktripple"
-            android:layout_width="97dp"
-            android:layout_height="62dp"
-            android:backgroundTint="#FD4C3717"
-            android:text="BOOK NOW"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.907"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.834"
-            tools:ignore="HardcodedText,UnusedAttribute" />
-
-
-
-        <TextView
-            android:id="@+id/txtquad"
-            android:layout_width="222dp"
+            android:id="@+id/txtJuniorsuperior"
+            android:layout_width="355dp"
             android:layout_height="41dp"
             android:layout_margin="40dp"
             android:fontFamily="serif"
-            android:text="3)Quad room"
+            android:text="4)Jonior Superior Room"
             android:textColor="#FD4C3717"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -273,7 +212,7 @@
             tools:ignore="HardcodedText" />
 
         <ImageButton
-            android:id="@+id/imgquad"
+            android:id="@+id/imgJrsup"
             android:layout_width="397dp"
             android:layout_height="248dp"
             android:layout_alignParentStart="true"
@@ -290,15 +229,15 @@
 
 
         <TextView
-            android:id="@+id/txtquaddis"
-            android:layout_width="597dp"
-            android:layout_height="278dp"
+            android:id="@+id/txtJrdis"
+            android:layout_width="wrap_content"
+            android:layout_height="188dp"
             android:layout_alignParentEnd="true"
             android:layout_margin="20dp"
             android:layout_marginTop="446dp"
             android:layout_marginBottom="20dp"
             android:fontFamily="casual"
-            android:text="Designed with maximum flexibility and comfort, Quadruple Room offers spacious and pleasant accommodation for a group of up to four persons, with value-for-money guaranteed. Sized at 32 sqm, the room is equipped with four single beds and comprehensive amenities for four persons, allowing guests to unwind in the complete comfort and convenience.It also offers accommodation with a host of privileges including in-room Wi-Fi service, deep-soaking tub and other modern facilities to provide you the convenience of a home away from home."
+            android:text="Junior Superior at Luxury Brand hotel is more spacious with a guaranteed breathtaking view of swimming pool. This spacious room has everything you could possibly want – from in room amenities like mini bar,  two double sized bed good for 4 persons only, coffee amenities and a private bathroom with hot and cold shower. Additional charge will apply for the extra person."
             android:textColor="#FDAA7B32"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -315,7 +254,7 @@
 
 
         <Button
-            android:id="@+id/booking"
+            android:id="@+id/btnBook"
             android:layout_width="350dp"
             android:layout_gravity="center"
             android:layout_height="90dp"

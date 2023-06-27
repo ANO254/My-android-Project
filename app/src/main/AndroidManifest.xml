@@ -6,19 +6,31 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/LuxuryBrand"
+        android:icon="@drawable/luxurybrand"
         android:label="Luxury Brand Hotel"
-        android:roundIcon="@drawable/LuxuryBrand"
+        android:roundIcon="@drawable/luxurybrand"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyandroidProject"
         tools:targetApi="31">
         <activity
+            android:name=".Booking_page"
+            android:exported="false" />
+        <activity
+            android:name=".LogIn"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Page2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".splashActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            android:exported="true">
+            android:name=".SplashViewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
