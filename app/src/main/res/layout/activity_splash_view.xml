@@ -15,7 +15,9 @@
         android:gravity="center"
         android:text="A home away from home."
         android:textColor="#6C4424"
+        android:shadowColor="#6C4424"
         android:textSize="40sp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

@@ -23,27 +23,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="cursive"
             android:text="Sign In"
+            android:fontFamily="serif"
+
             android:textAlignment="center"
             android:textColor="#FDAA7B32"
             android:textSize="50sp" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edtsignfirstname"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="First Name"
+            android:fontFamily="serif"
             android:layout_marginTop="30dp"
             android:textColorHint="#FDAA7B32"
             app:boxStrokeColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtsignfirstname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="cursive"
                 android:inputType="text"
+                android:fontFamily="serif"
                 android:minHeight="45dp"
                 android:singleLine="true"
                 android:textColor="#FDAA7B32" />
@@ -51,7 +54,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edtsignlastname"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -60,10 +63,11 @@
             android:textColorHint="#FDAA7B32"
             app:boxStrokeColor="@color/black">
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtsignlastname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="cursive"
                 android:inputType="text"
+                android:fontFamily="serif"
                 android:minHeight="45dp"
                 android:singleLine="true"
                 android:textColor="#FDAA7B32"/>
@@ -71,7 +75,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edtsignemail"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -80,9 +84,10 @@
             android:textColorHint="#FDAA7B32"
             app:boxStrokeColor="@color/black">
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtsignemail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="cursive"
+                android:fontFamily="serif"
                 android:inputType="textEmailAddress"
                 android:minHeight="45dp"
                 android:singleLine="true"
@@ -90,45 +95,8 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="cursive"
-                android:text="+254"
-                android:textColor="#FDAA7B32"
-                android:textSize="20sp"/>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/edtsignmobile"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:hint="Mobile number"
-                android:textColorHint="#FDAA7B32"
-                app:boxStrokeColor="@color/black">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="cursive"
-                    android:inputType="number"
-                    android:singleLine="true"
-                    android:textColor="@color/black"
-                    tools:ignore="TouchTargetSizeCheck" />
-
-            </com.google.android.material.textfield.TextInputLayout>
-
-        </LinearLayout>
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edtpass"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -138,17 +106,18 @@
             android:textColorHint="#FDAA7B32"
             app:boxStrokeColor="@color/black">
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtpass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="cursive"
                 android:inputType="textPassword"
+                android:fontFamily="serif"
                 android:minHeight="45dp"
                 android:singleLine="true"
                 android:textColor="#FDAA7B32"/>
 
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edtconfpass"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -158,9 +127,10 @@
             android:textColorHint="#FDAA7B32"
             app:boxStrokeColor="@color/black">
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtconfpass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="cursive"
+                android:fontFamily="serif"
                 android:inputType="textPassword"
                 android:minHeight="45dp"
                 android:singleLine="true"

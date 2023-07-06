@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#FAE9D1"
     android:orientation="vertical"
     android:layout_height="match_parent">
@@ -16,31 +17,40 @@
         android:fontFamily="serif-monospace"
         android:layout_gravity="center"
         android:textSize="50sp"/>
+
+
     <EditText
         android:id="@+id/edtgmail"
-        android:layout_width="match_parent"
+        android:layout_width="353dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30sp"
         android:layout_marginTop="60sp"
-        android:textSize="20sp"
         android:layout_marginRight="30sp"
         android:ems="10"
         android:hint="Enter Email Address"
-        android:minHeight="48dp"
-        android:textColorHint="#FDAA7B32" />
 
-    <EditText
-        android:id="@+id/password"
+        android:minHeight="48dp"
+        android:textColorHint="#FDAA7B32"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30sp"
-        android:layout_marginTop="60sp"
-        android:textSize="20sp"
-        android:layout_marginRight="30sp"
-        android:ems="10"
-        android:hint="Enter Password"
-        android:minHeight="48dp"
-        android:textColorHint="#FDAA7B32" />
+        android:layout_marginTop="30dp"
+        android:hint="Password"
+        android:textColorHint="#FDAA7B32"
+        app:boxStrokeColor="@color/black"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/logpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:minHeight="30dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
 
 
     <Button

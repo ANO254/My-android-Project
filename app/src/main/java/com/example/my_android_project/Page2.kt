@@ -6,23 +6,23 @@ import android.os.Bundle
 import android.widget.Button
 
 class Page2 : AppCompatActivity() {
-    lateinit var buttonsign:Button
-    lateinit var buttonlog:Button
+    lateinit var bnsign:Button
+    lateinit var bnlog:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_page2)
 
-        buttonsign=findViewById(R.id.p2signin)
-        buttonlog=findViewById(R.id.p2login)
+        bnsign=findViewById(R.id.p2signin)
+        bnlog=findViewById(R.id.p2login)
 
-        buttonsign.setOnClickListener {
-            val sign = Intent( this,Signup::class.java)
+        bnsign.setOnClickListener {
+            val sign = Intent(this,Signup::class.java)
             startActivity(sign)
         }
 
 
-        buttonlog.setOnClickListener {
+        bnlog.setOnClickListener {
             val log = Intent(this,LogIn::class.java)
             startActivity(log)
         }

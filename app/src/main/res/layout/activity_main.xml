@@ -71,8 +71,8 @@
 
         <ImageButton
             android:id="@+id/btnstandard"
-            android:layout_width="392dp"
-            android:layout_height="229dp"
+            android:layout_width="263dp"
+            android:layout_height="203dp"
             android:contentDescription="TODO"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -86,8 +86,8 @@
 
         <TextView
             android:id="@+id/txtstanddiscr"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="309dp"
+            android:layout_height="328dp"
             android:layout_below="@id/txtstandard"
             android:layout_margin="20dp"
             android:fontFamily="casual"
@@ -102,6 +102,17 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.243"
             tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textColor="#672E00"
+            android:text="PRICE per night:
+
+            1)Adult: 200USD
+                                2)Children under 12yrs:100USD"
+            />
 
 
 
@@ -125,8 +136,8 @@
 
         <ImageButton
             android:id="@+id/btndeluxe"
-            android:layout_width="314dp"
-            android:layout_height="wrap_content"
+            android:layout_width="291dp"
+            android:layout_height="165dp"
             android:contentDescription="TODO"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -140,8 +151,8 @@
 
         <TextView
             android:id="@+id/txtdeluxedis"
-            android:layout_width="567dp"
-            android:layout_height="172dp"
+            android:layout_width="334dp"
+            android:layout_height="282dp"
             android:layout_margin="20dp"
             android:fontFamily="casual"
             android:text="Luxury Brand Deluxe rooms are modern decorated, can accommodate up to 2 persons, totally soundproofed and equipped with high tech comforts such as high speed internet access, USB ports , smart TV, room cleaning touch system and private hydromassage bathtub."
@@ -156,6 +167,20 @@
 
             app:layout_constraintVertical_bias="0.544"
             tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textColor="#672E00"
+            android:text="PRICE per night:
+
+            1)Adult: 220USD
+                                2)Children under 12yrs:110USD"
+            />
+
+
+
 
 
 
@@ -177,21 +202,43 @@
             app:layout_constraintVertical_bias="0.874"
             tools:ignore="HardcodedText" />
 
-        <ImageButton
-            android:id="@+id/imgexucutive"
-            android:layout_width="397dp"
-            android:layout_height="248dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:contentDescription="TODO"
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="289dp"
+            android:layout_height="195dp"
+            app:srcCompat="@drawable/standard2" />
+
+
+        <TextView
+            android:id="@+id/txtexucutivedis"
+            android:layout_width="324dp"
+            android:layout_height="406dp"
+            android:layout_margin="20dp"
+            android:fontFamily="casual"
+            android:text="Our luxury Executive Suites encompass everything you are searching for in a romantic getaway. Let the excitement and allure surround you and consume you in ways you’ve never imagined. Relax and slip into your personal heart-shaped Jacuzzi or unleash your wild side on your exclusive love chair. This suite has everything you need to spend some much needed one-on-one time with that special someone. "
+            android:textColor="#FDAA7B32"
+            android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.781"
-            app:srcCompat="@drawable/deluxehotel"
-            tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck" />
+
+            app:layout_constraintVertical_bias="0.544"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textColor="#672E00"
+            android:text="PRICE per night:
+
+            1)Adult: 240USD
+                                2)Children under 12yrs:120USD"
+            />
+
 
 
         <TextView
@@ -212,26 +259,16 @@
             tools:ignore="HardcodedText" />
 
         <ImageButton
-            android:id="@+id/imgJrsup"
-            android:layout_width="397dp"
-            android:layout_height="248dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:contentDescription="TODO"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.781"
-            app:srcCompat="@drawable/quadroom"
-            tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck" />
+            android:id="@+id/imageButton2"
+            android:layout_width="278dp"
+            android:layout_height="172dp"
+            app:srcCompat="@drawable/deluxehotel" />
 
 
         <TextView
             android:id="@+id/txtJrdis"
-            android:layout_width="wrap_content"
-            android:layout_height="188dp"
+            android:layout_width="307dp"
+            android:layout_height="403dp"
             android:layout_alignParentEnd="true"
             android:layout_margin="20dp"
             android:layout_marginTop="446dp"
@@ -249,6 +286,17 @@
             app:layout_constraintVertical_bias="1.0"
             tools:ignore="HardcodedText" />
 
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textColor="#672E00"
+            android:text="PRICE per night:
+
+            1)Adult: 250USD
+                                2)Children under 12yrs:125USD"
+            />
 
 
 
@@ -268,10 +316,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.834"
             tools:ignore="HardcodedText,UnusedAttribute" />
-
-
-
-
 
 
 
